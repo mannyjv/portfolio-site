@@ -52,3 +52,9 @@ h1 {
     display: none;
   }
 }
+
+@media screen and (min-width: 700px) {
+  .sub-hero-photo {
+    max-width: 600px;
+  }
+}
