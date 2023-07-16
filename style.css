@@ -11,6 +11,21 @@ h1 {
   font-family: "Rubik Dirt", cursive;
 }
 
+.dark-section {
+  background-color: #1b1b32;
+  color: white;
+}
+
+.section-title {
+  font-size: 2rem;
+  padding: 15px 0px;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.section-text {
+  font-size: 1.2rem;
+}
+
 /* nav bar */
 .navbar {
   padding: 2rem;
@@ -44,6 +59,17 @@ h1 {
   object-fit: cover;
   border-radius: 50%;
   margin: 20px;
+}
+
+/* about me */
+.about-me {
+  height: 500px;
+  padding: 10px;
+}
+
+.about-me .content-container {
+  max-width: 600px;
+  text-align: center;
 }
 
 /* responsiveness */
