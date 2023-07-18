@@ -20,14 +20,34 @@ h1 {
   background-color: white;
   color: black;
 }
+
 .section-title {
   font-size: 2rem;
   padding: 15px 0px;
   font-family: "Rubik Dirt", cursive;
 }
 
+.section-description {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
 .section-text {
   font-size: 1.2rem;
+}
+
+.btn-info {
+  /* bootstrap class */
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.black-text {
+  color: black;
+}
+
+.white-text {
+  color: white;
 }
 
 /* nav bar */
@@ -100,7 +120,7 @@ h1 {
   font-size: 1.5rem;
   color: #7ade30;
   background-color: #0a0a23;
-  padding: 8px 19px;
+  padding: 8px 15px;
   border-radius: 50%;
 }
 .experience-title {
@@ -119,7 +139,81 @@ h1 {
   margin: 5px;
 }
 
+/* projects */
+.recent-projects {
+  padding: 40px;
+}
+
+.recent-projects img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  object-fit: fill;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.projects-container {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.project {
+  position: relative;
+  height: 300px;
+  margin-bottom: 10px;
+  border: 0.3px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover img {
+  opacity: 0.2;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay i {
+  color: black;
+  font-size: 40px;
+  margin: 10px;
+}
+
 /* responsiveness */
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
