@@ -203,6 +203,22 @@ h1 {
   margin: 10px;
 }
 
+/* articles */
+.articles {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.articles .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articles .card-header {
+  font-weight: bold;
+}
+
 /* responsiveness */
 @media screen and (max-width: 400px) {
   .overlay p {
