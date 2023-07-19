@@ -324,6 +324,58 @@ h1 {
   color: black;
 }
 
+/* footer */
+.footer {
+  min-height: 500px;
+}
+
+.footer-logo {
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.social-media-icons a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.social-media-icons i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.social-media-icons a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.social-media-icons a:hover i {
+  color: black;
+}
+
+.author-rights {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
 /* responsiveness */
 @media screen and (max-width: 400px) {
   .overlay p {
