@@ -1,4 +1,6 @@
-[![header][header-url]]
+<p align="center">
+    <img src="./images/portfolio-image.png" alt="Image" width="550">
+</p>
 
 # Portfolio Website
 
@@ -34,7 +36,6 @@ This project was designed to demonstrate the following skills:
 
 [linkedin-url]: https://www.linkedin.com/in/emmanueljvazquez/
 [website-url]: https://mannyvazquez.dev/
-[header-url]: ./images/portfolio-image.png
 [version-image]: https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge&logo=appveyor
 [version-url]: https://img.shields.io/badge/version-1.0.0-green
 [Frontend-image]: https://img.shields.io/badge/Frontend-blue?style=for-the-badge
